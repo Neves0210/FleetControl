@@ -1,11 +1,11 @@
-    [phases.setup]
+[phases.setup]
 nixPkgs = ["nodejs_22"]
 
 [phases.install]
 cmds = ["npm install"]
 
 [phases.build]
-cmds = ["chmod +x ./node_modules/.bin/vite", "npm run build"]
+cmds = ["node ./node_modules/vite/bin/vite.js build"]
 
 [start]
-cmd = "npx vite preview --host 0.0.0.0 --port $PORT"
+cmd = "node ./node_modules/vite/bin/vite.js preview --host 0.0.0.0 --port $PORT"
