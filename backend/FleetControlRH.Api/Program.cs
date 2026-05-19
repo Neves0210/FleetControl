@@ -81,11 +81,23 @@ var app = builder.Build();
 
 using (var scope = app.Services.CreateScope())
 {
-    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
-
-    db.Database.EnsureCreated();
-
-    DbSeeder.Seed(db);
+    try
+    {
+        var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+        Console.WriteLine("Tentando conectar ao banco...");
+        db.Database.EnsureCreated();
+        Console.WriteLine("Banco criado/verificado com sucesso.");
+        DbSeeder.Seed(db);
+        Console.WriteLine("Seed concluído.");
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine("=== ERRO NA INICIALIZAÇÃO DO BANCO ===");
+        Console.WriteLine(ex.GetType().FullName);
+        Console.WriteLine(ex.Message);
+        if (ex.InnerException != null)
+            Console.WriteLine($"Inner: {ex.InnerException.Message}");
+    }
 }
 
 if (app.Environment.IsDevelopment())
