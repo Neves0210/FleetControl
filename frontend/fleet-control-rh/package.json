@@ -2,7 +2,7 @@
   "name": "fleet-control-rh",
   "version": "1.0.0",
   "engines": {
-    "node": ">=22.12.0"
+    "node": ">=22.12.0 <23"
   },
   "scripts": {
     "dev": "vite",

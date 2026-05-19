@@ -1,11 +1,14 @@
+[variables]
+NIXPACKS_NODE_VERSION = "22.12.0"
+
 [phases.setup]
-nixPkgs = ["nodejs_23"]
+nixPkgs = ["nodejs_22"]
 
 [phases.install]
 cmds = ["npm install"]
 
 [phases.build]
-cmds = ["node ./node_modules/vite/bin/vite.js build"]
+cmds = ["npm run build"]
 
 [start]
-cmd = "node ./node_modules/vite/bin/vite.js preview --host 0.0.0.0 --port ${PORT:-8080}"
+cmd = "npm run preview -- --host 0.0.0.0 --port $PORT"
