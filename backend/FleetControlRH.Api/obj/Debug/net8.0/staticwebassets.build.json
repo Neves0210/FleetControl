@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "o5/LKjIW4AzO83UbjfwZoqesSKZPnHmyrOX3n7dSJUw=",
+  "Source": "FleetControlRH.Api",
+  "BasePath": "_content/FleetControlRH.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "FleetControlRH.Api\\wwwroot",
+      "Source": "FleetControlRH.Api",
+      "ContentRoot": "C:\\Users\\gabar\\OneDrive\\Área de Trabalho\\Programação\\abastacimento\\FleetControlRH_Final\\backend\\FleetControlRH.Api\\wwwroot\\",
+      "BasePath": "_content/FleetControlRH.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\gabar\\OneDrive\\Área de Trabalho\\Programação\\abastacimento\\FleetControlRH_Final\\backend\\FleetControlRH.Api\\wwwroot\\uploads\\notas-fiscais\\nota-20260518140336-14ab5c5a5933422eb8d86ba1cae1929d.jpeg",
+      "SourceId": "FleetControlRH.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gabar\\OneDrive\\Área de Trabalho\\Programação\\abastacimento\\FleetControlRH_Final\\backend\\FleetControlRH.Api\\wwwroot\\",
+      "BasePath": "_content/FleetControlRH.Api",
+      "RelativePath": "uploads/notas-fiscais/nota-20260518140336-14ab5c5a5933422eb8d86ba1cae1929d#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oz0brvj81z",
+      "Integrity": "xOBC2T+Vo3lwZXQdbXe0FQWPv1qQT+359h+yWVjz2YA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\notas-fiscais\\nota-20260518140336-14ab5c5a5933422eb8d86ba1cae1929d.jpeg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "uploads/notas-fiscais/nota-20260518140336-14ab5c5a5933422eb8d86ba1cae1929d.jpeg",
+      "AssetFile": "C:\\Users\\gabar\\OneDrive\\Área de Trabalho\\Programação\\abastacimento\\FleetControlRH_Final\\backend\\FleetControlRH.Api\\wwwroot\\uploads\\notas-fiscais\\nota-20260518140336-14ab5c5a5933422eb8d86ba1cae1929d.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3869155"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xOBC2T+Vo3lwZXQdbXe0FQWPv1qQT+359h+yWVjz2YA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 May 2026 17:03:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xOBC2T+Vo3lwZXQdbXe0FQWPv1qQT+359h+yWVjz2YA="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/notas-fiscais/nota-20260518140336-14ab5c5a5933422eb8d86ba1cae1929d.oz0brvj81z.jpeg",
+      "AssetFile": "C:\\Users\\gabar\\OneDrive\\Área de Trabalho\\Programação\\abastacimento\\FleetControlRH_Final\\backend\\FleetControlRH.Api\\wwwroot\\uploads\\notas-fiscais\\nota-20260518140336-14ab5c5a5933422eb8d86ba1cae1929d.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3869155"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xOBC2T+Vo3lwZXQdbXe0FQWPv1qQT+359h+yWVjz2YA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 May 2026 17:03:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oz0brvj81z"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/notas-fiscais/nota-20260518140336-14ab5c5a5933422eb8d86ba1cae1929d.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xOBC2T+Vo3lwZXQdbXe0FQWPv1qQT+359h+yWVjz2YA="
+        }
+      ]
+    }
+  ]
+}

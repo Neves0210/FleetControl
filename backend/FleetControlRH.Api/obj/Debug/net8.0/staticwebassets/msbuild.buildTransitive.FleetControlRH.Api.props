@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\FleetControlRH.Api.props" />
+</Project>

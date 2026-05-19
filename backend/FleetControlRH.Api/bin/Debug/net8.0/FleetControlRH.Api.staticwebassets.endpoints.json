@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "uploads/notas-fiscais/nota-20260518140336-14ab5c5a5933422eb8d86ba1cae1929d.jpeg",
+      "AssetFile": "uploads/notas-fiscais/nota-20260518140336-14ab5c5a5933422eb8d86ba1cae1929d.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3869155"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xOBC2T+Vo3lwZXQdbXe0FQWPv1qQT+359h+yWVjz2YA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 May 2026 17:03:36 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xOBC2T+Vo3lwZXQdbXe0FQWPv1qQT+359h+yWVjz2YA="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/notas-fiscais/nota-20260518140336-14ab5c5a5933422eb8d86ba1cae1929d.oz0brvj81z.jpeg",
+      "AssetFile": "uploads/notas-fiscais/nota-20260518140336-14ab5c5a5933422eb8d86ba1cae1929d.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3869155"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xOBC2T+Vo3lwZXQdbXe0FQWPv1qQT+359h+yWVjz2YA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 18 May 2026 17:03:36 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oz0brvj81z"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xOBC2T+Vo3lwZXQdbXe0FQWPv1qQT+359h+yWVjz2YA="
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/notas-fiscais/nota-20260518140336-14ab5c5a5933422eb8d86ba1cae1929d.jpeg"
+        }
+      ]
+    }
+  ]
+}

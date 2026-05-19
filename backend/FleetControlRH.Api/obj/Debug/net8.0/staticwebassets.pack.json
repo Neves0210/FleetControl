@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\gabar\\OneDrive\\Área de Trabalho\\Programação\\abastacimento\\FleetControlRH_Final\\backend\\FleetControlRH.Api\\wwwroot\\uploads\\notas-fiscais\\nota-20260518140336-14ab5c5a5933422eb8d86ba1cae1929d.jpeg",
+      "PackagePath": "staticwebassets\\uploads\\notas-fiscais\\nota-20260518140336-14ab5c5a5933422eb8d86ba1cae1929d.jpeg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FleetControlRH.Api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FleetControlRH.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.FleetControlRH.Api.props",
+      "PackagePath": "build\\FleetControlRH.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.FleetControlRH.Api.props",
+      "PackagePath": "buildMultiTargeting\\FleetControlRH.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.FleetControlRH.Api.props",
+      "PackagePath": "buildTransitive\\FleetControlRH.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
