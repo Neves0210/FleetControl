@@ -7,6 +7,19 @@ using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// TEMPORÁRIO - remover após diagnóstico
+Console.WriteLine("=== DIAGNÓSTICO DE INICIALIZAÇÃO ===");
+Console.WriteLine($"DATABASE_URL: {(Environment.GetEnvironmentVariable("DATABASE_URL") != null ? "PRESENTE" : "AUSENTE")}");
+Console.WriteLine($"PORT: {Environment.GetEnvironmentVariable("PORT") ?? "não definida"}");
+Console.WriteLine($"ASPNETCORE_ENVIRONMENT: {Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") ?? "não definida"}");
+
+var connStr = Environment.GetEnvironmentVariable("DATABASE_URL");
+if (connStr != null)
+{
+    try { var uri = new Uri(connStr); Console.WriteLine($"DB Host: {uri.Host}:{uri.Port}"); }
+    catch { Console.WriteLine("DATABASE_URL presente mas inválida"); }
+}
+
 var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
 builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
 
